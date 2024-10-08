@@ -3,16 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unit 1 Reflection - My PACE111 Journey</title>
+    <title>Unit 1 Reflection</title>
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/unit1.css" />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
     <header>
-      <div class="container">
-        <h1>My PACE111 Reflection Journey</h1>
-      </div>
+      <!-- Your existing header content -->
     </header>
 
     <nav>
@@ -26,99 +22,139 @@
     </nav>
 
     <main>
-      <div class="container">
-        <h2>Unit 1: Introduction & Mindset</h2>
+      <h2>Unit 1: Introduction & Mindset</h2>
 
-        <section class="timeline">
-          <h3>My Learning Journey</h3>
-          <!-- Add interactive timeline here -->
-        </section>
+      <section class="timeline">
+        <h3>My Learning Journey</h3>
+        <!-- Add interactive timeline here -->
+      </section>
 
-        <section class="reflection">
-          <h3>Identifying Learning Experiences</h3>
-          <div class="accordion">
-            <p>
-              In Unit 1, I began my self-reflection and academic assessment
-              journey while taking PACE111. Introducing myself in the initial
-              class discussion allowed me to recount and reflect on my
-              educational path—from earning an A.S. in Information Systems to
-              pursuing a B.S. in Computer Science at UMGC.
-            </p>
-            <!-- Add more paragraphs here -->
+      <section class="reflection">
+        <div class="accordion">
+          <div class="accordion-item">
+            <h3 class="accordion-header">Identifying Learning Experiences</h3>
+            <div class="accordion-content">
+              <p>
+                In Unit 1, I began my self-reflection and academic assessment
+                journey while taking PACE111. Introducing myself in the initial
+                class discussion allowed me to recount and reflect on my
+                educational path—from earning an A.S. in Information Systems to
+                pursuing a B.S. in Computer Science at UMGC. Sharing my
+                experiences with web development, Python, and my recent foray
+                into C++ highlighted the evolution of my technical skills. It is
+                pretty enlightening and reassuring to reflect on the evolution
+                of my skills over time. Initially, C++ posed significant
+                challenges, and I grappled with a fixed mindset intertwined with
+                imposter syndrome as I felt I was way over my head. However,
+                recognizing these mental barriers was a crucial learning
+                experience. The DAACS assessment further illuminated my academic
+                strengths and areas for growth. While I scored highly in
+                motivation and strategies, it became evident that I need to
+                enhance my metacognitive skills, particularly in planning,
+                monitoring, and evaluating my learning processes.
+              </p>
+            </div>
           </div>
-
-          <h3>Application of Learning to Future Endeavors</h3>
-          <div class="accordion">
-            <p>
-              Understanding the importance of a growth mindset is not just an
-              academic exercise but a vital tool for my future professional
-              endeavors. I hope to one day develop AI software for medicine and
-              human augmentation, which will require persistent learning and
-              adaptability from my end.
-            </p>
-            <!-- Add more paragraphs here -->
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              Application of Learning to Future Endeavors
+            </h3>
+            <div class="accordion-content">
+              <p>
+                Understanding the importance of a growth mindset is not just an
+                academic exercise but a vital tool for my future professional
+                endeavors. I hope to one day develop AI software for medicine
+                and human augmentation, which will require persistent learning
+                and adaptability from my end. By improving my metacognitive
+                abilities, I am sure that I will more effectively plan and
+                execute complex projects that I will take on that will enhance
+                the quality of life for medical trauma survivors, especially
+                cancer survivors like myself. The strategies I've committed
+                to—such as better planning study sessions and actively seeking
+                feedback—will directly translate to professional settings where
+                project planning and continual self-improvement are crucial.
+                Embracing a mindset focused on mastery rather than just outcomes
+                will allow me to contribute meaningfully to AI in medicine and
+                biotechnology.
+              </p>
+            </div>
           </div>
-
-          <h3>Identifying Key Takeaways</h3>
-          <div class="accordion">
-            <p>
-              The pivotal takeaway from this unit is the transformative power of
-              adopting a growth mindset. Shifting my perspective has already
-              begun alleviating feelings of imposter syndrome and has reignited
-              my passion for learning challenging subjects like C++.
-            </p>
-            <!-- Add more paragraphs here -->
+          <div class="accordion-item">
+            <h3 class="accordion-header">Identifying Key Takeaways</h3>
+            <div class="accordion-content">
+              <p>
+                The pivotal takeaway from this unit is the transformative power
+                of adopting a growth mindset. Shifting my perspective has
+                already begun alleviating feelings of imposter syndrome and has
+                reignited my passion for learning challenging subjects like C++.
+                I am now more comfortable with C++ than ever before. I am
+                currently working on a project to use my skills to create a
+                Thanksgiving "Turkey Trot" turkey costume with automated
+                features for my daughter's elementary school 2024 "Turkey Trot"
+                event. The most consequential benefit of Unit 1, of course, was
+                the insights gleaned from the DAACS assessment, which provided
+                valuable insights into my learning habits, emphasizing the need
+                for improved metacognition (thinking about thinking).
+                Recognizing that planning, monitoring, and evaluating are not
+                just academic exercises but essential life skills has been
+                illuminating my growth as I finish my degree. This unit has
+                reinforced my belief that personal and professional development
+                will be ever-ongoing, and I will continue developing my
+                self-awareness, resilience, and willingness to seek help and
+                resources when needed.
+              </p>
+            </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="daacs-results">
-          <h3>DAACS Assessment Results</h3>
+      <section class="daacs-results">
+        <h3>DAACS Assessment Results</h3>
+        <div class="chart-container">
+          <canvas id="overallChart"></canvas>
+        </div>
+        <div class="chart-container">
+          <canvas id="selfRegulatedLearningChart"></canvas>
+        </div>
+        <div class="chart-row">
           <div class="chart-container">
-            <canvas id="overallChart"></canvas>
+            <canvas id="writingChart"></canvas>
           </div>
           <div class="chart-container">
-            <canvas id="selfRegulatedLearningChart"></canvas>
+            <canvas id="mathChart"></canvas>
           </div>
-          <div class="chart-row">
-            <div class="chart-container">
-              <canvas id="writingChart"></canvas>
-            </div>
-            <div class="chart-container">
-              <canvas id="mathChart"></canvas>
-            </div>
-            <div class="chart-container">
-              <canvas id="readingChart"></canvas>
-            </div>
+          <div class="chart-container">
+            <canvas id="readingChart"></canvas>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="quote-highlight">
-          <blockquote>
-            "Recognizing that planning, monitoring, and evaluating are not just
-            academic exercises but essential life skills has been illuminating
-            my growth as I finish my degree."
-          </blockquote>
-        </section>
+      <section class="quote-highlight">
+        <blockquote>
+          "Recognizing that planning, monitoring, and evaluating are not just
+          academic exercises but essential life skills has been illuminating my
+          growth as I finish my degree."
+        </blockquote>
+      </section>
 
-        <section class="resources">
-          <h3>Helpful Resources</h3>
-          <ul>
-            <li>
-              <a
-                href="https://www.umgc.edu/current-students/learning-resources/writing-center"
-                >Writing Center</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.umgc.edu/current-students/learning-resources/tutoring"
-                >UMGC Tutoring Services</a
-              >
-            </li>
-            <!-- Add more resources as needed -->
-          </ul>
-        </section>
-      </div>
+      <section class="resources">
+        <h3>Helpful Resources</h3>
+        <ul>
+          <li>
+            <a
+              href="https://www.umgc.edu/current-students/learning-resources/writing-center"
+              >Writing Center</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.umgc.edu/current-students/learning-resources/tutoring"
+              >UMGC Tutoring Services</a
+            >
+          </li>
+          <!-- Add more resources as needed -->
+        </ul>
+      </section>
     </main>
 
     <footer>
@@ -127,7 +163,8 @@
       </div>
     </footer>
 
-    <script src="../js/accordion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="../js/daacs-charts.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>

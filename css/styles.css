@@ -111,3 +111,26 @@ a:hover {
     width: 30%;
     min-width: 250px;
 }
+
+/* Accordion styles */
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.accordion-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion-header.active {
+    background-color: #ddd;
+}
