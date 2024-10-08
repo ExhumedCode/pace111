@@ -93,3 +93,21 @@ a:hover {
 .unit-links li {
     margin-bottom: 10px;
 }
+
+/* Chart styles */
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.chart-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.chart-row .chart-container {
+    width: 30%;
+    min-width: 250px;
+}

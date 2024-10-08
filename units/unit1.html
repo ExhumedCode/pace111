@@ -6,6 +6,7 @@
     <title>Unit 1 Reflection - My PACE111 Journey</title>
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/unit1.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
     <header>
@@ -72,7 +73,23 @@
 
         <section class="daacs-results">
           <h3>DAACS Assessment Results</h3>
-          <!-- Add infographic or visual representation of DAACS results here -->
+          <div class="chart-container">
+            <canvas id="overallChart"></canvas>
+          </div>
+          <div class="chart-container">
+            <canvas id="selfRegulatedLearningChart"></canvas>
+          </div>
+          <div class="chart-row">
+            <div class="chart-container">
+              <canvas id="writingChart"></canvas>
+            </div>
+            <div class="chart-container">
+              <canvas id="mathChart"></canvas>
+            </div>
+            <div class="chart-container">
+              <canvas id="readingChart"></canvas>
+            </div>
+          </div>
         </section>
 
         <section class="quote-highlight">
@@ -86,8 +103,18 @@
         <section class="resources">
           <h3>Helpful Resources</h3>
           <ul>
-            <li><a href="#">Online Writing Lab</a></li>
-            <li><a href="#">UMGC Tutoring Services</a></li>
+            <li>
+              <a
+                href="https://www.umgc.edu/current-students/learning-resources/writing-center"
+                >Writing Center</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.umgc.edu/current-students/learning-resources/tutoring"
+                >UMGC Tutoring Services</a
+              >
+            </li>
             <!-- Add more resources as needed -->
           </ul>
         </section>
@@ -101,5 +128,6 @@
     </footer>
 
     <script src="../js/accordion.js"></script>
+    <script src="../js/daacs-charts.js"></script>
   </body>
 </html>
